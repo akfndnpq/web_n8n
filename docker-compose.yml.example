@@ -16,8 +16,8 @@ services:
       GENERIC_TIMEZONE: ${GENERIC_TIMEZONE}
       DB_TYPE: sqlite
       N8N_EMAIL_MODE: smtp
-      N8N_SMTP_HOST: smtp.example.com
-      N8N_SMTP_PORT: 587
+      N8N_SMTP_HOST: ${SMTP_HOST}
+      N8N_SMTP_PORT: ${SMTP_PORT}
       N8N_SMTP_USER: ${SMTP_USER}
       N8N_SMTP_PASS: ${SMTP_PASS}
       N8N_SMTP_SENDER: ${SMTP_SENDER}
